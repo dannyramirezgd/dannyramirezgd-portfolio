@@ -1,131 +1,15 @@
-:root {
-  --primary-color: rgb(25, 207, 200);
-  --secondary-color: rgb(0, 0, 0);
-  --tertiary-color: rgb(255, 255, 255);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+p{
+  margin-bottom: 0;
+}
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-}
-
-#navbar {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-header {
-  /* background-image: url(../images/heroImg.jpg); */
+  background-image: url(./assets/images/heroImg.jpg);
   background-size: cover;
   background-attachment: fixed;
-}
-header nav ul li a:hover {
-  font-weight: bolder;
-}
-
-main {
-  height: 800px;
-  /* background-image: url(../images/heroImg.jpg); */
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.name {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em;
-}
-.title {
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-h1 {
-  text-align: center;
-}
-h2 {
-  text-align: center;
-  margin: 50px;
-  padding-top: 120px;
-}
-
-section {
-    padding-bottom: 20px;
-}
-
-/* #about-me {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
-} */
-
-.rounded-circle {
-    max-width: 300px;
-    max-height: 300px;
-}
-#projects {
-    /* background-image: url(../images/heroImg.jpg); */
-    background-size: cover;
-    background-attachment: fixed;
-}
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-
-.card {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.skills img {
-  height: 80px;
-}
-.skills li {
-  list-style: none;
-}
-
-#contact-me {
-    /* background-image: url(../images/heroImg.jpg); */
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.contact-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.contact-form img {
-  height: 80px;
-  margin: 10px;
-}
-.logo{
-    border-radius: 50%;
-}
-.gmail {
-    width: 80px;
-}
-footer {
-  text-align: center;
 }

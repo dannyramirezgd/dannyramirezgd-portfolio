@@ -25,8 +25,8 @@ function App() {
   return (
     <div>
       <Navigation setLink={setLink} />
-      <main>
-        <div>{currentLink(link)}</div>
+      <main className='d-flex justify-content-center align-items-center min-vh-100'>
+        <section>{currentLink(link)}</section>
       </main>
     </div>
   );

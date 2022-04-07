@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../../assets/images/profilePic.jpg';
+import profilePic from '../../assets/images/resizedProfilePic.jpg';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
         <img className="rounded-circle" src={profilePic} alt="profile" />
       </div>
       <div className="bio col-12 col-md-6 col-xl-3">
-        <h2>About Me</h2>
+        <h2 className='text-center'>About Me</h2>
         <p className="fs-5">
           I am currently pursuing certification as a full stack web developer
           using skills in counseling and interpersonal development to create a
