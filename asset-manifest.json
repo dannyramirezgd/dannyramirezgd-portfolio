@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b5a3c0fb.css",
+    "main.js": "/portfolio/static/js/main.82250654.js",
+    "static/js/787.d053ddb6.chunk.js": "/portfolio/static/js/787.d053ddb6.chunk.js",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.648c4c6cdb4678c6a32a.pdf",
+    "static/media/fullStack.png": "/portfolio/static/media/fullStack.bb3884f8e4eaf2006c8d.png",
+    "static/media/resizedProfilePic.jpg": "/portfolio/static/media/resizedProfilePic.d5b334ae9b3e8d90561a.jpg",
+    "static/media/heroImg.jpg": "/portfolio/static/media/heroImg.05251f6c8c5d9bd33d4f.jpg",
+    "static/media/employeeTrackerCapture.png": "/portfolio/static/media/employeeTrackerCapture.f76a3ca4772f9b9892f3.png",
+    "static/media/weatherDashboardApp.png": "/portfolio/static/media/weatherDashboardApp.04472854abd1a776590d.png",
+    "static/media/frontEnd.png": "/portfolio/static/media/frontEnd.442fb09d7570df38428c.png",
+    "static/media/bootstrapIcon.png": "/portfolio/static/media/bootstrapIcon.11bac7d55297b1066d89.png",
+    "static/media/personalLogo.png": "/portfolio/static/media/personalLogo.15e1adf1135e8ccc0249.png",
+    "static/media/mysqlIcon.png": "/portfolio/static/media/mysqlIcon.e59831cb763a89d839aa.png",
+    "static/media/pwaBudgetTracker.png": "/portfolio/static/media/pwaBudgetTracker.664dc67cbbce727ca4e9.png",
+    "static/media/nosqlIcon.png": "/portfolio/static/media/nosqlIcon.49b88db2f1f4a31bf2ac.png",
+    "static/media/cssIcon.png": "/portfolio/static/media/cssIcon.1ce245b23ce60e27dfd1.png",
+    "index.html": "/portfolio/index.html",
+    "main.b5a3c0fb.css.map": "/portfolio/static/css/main.b5a3c0fb.css.map",
+    "main.82250654.js.map": "/portfolio/static/js/main.82250654.js.map",
+    "787.d053ddb6.chunk.js.map": "/portfolio/static/js/787.d053ddb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5a3c0fb.css",
+    "static/js/main.82250654.js"
+  ]
+}
