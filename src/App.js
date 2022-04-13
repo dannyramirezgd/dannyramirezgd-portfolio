@@ -5,6 +5,7 @@ import Navigation from './components/Navbar';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
   const [link, setLink] = useState('');
@@ -25,9 +26,10 @@ function App() {
   return (
     <div>
       <Navigation setLink={setLink} />
-      <main className='d-flex justify-content-center align-items-center min-vh-100'>
+      <main className='d-flex justify-content-center align-items-center mt-5'>
         <section>{currentLink(link)}</section>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -1,11 +1,12 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
 import downloadResume from '../../assets/files/Resume.pdf';
+import styles from './Resume.module.css';
 
 function Resume() {
   return (
     <div>
-      <h1 className='text-center'>
+      <h1 className={styles.resume}>
         <a href={downloadResume} className='text-decoration-none' target="_blank" rel="noreferrer">
           Download My Resume Here
         </a>

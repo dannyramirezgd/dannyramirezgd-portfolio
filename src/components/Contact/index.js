@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import styles from './Contact.module.css'
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -47,7 +48,7 @@ function ContactForm() {
         className="mb-3 align-items-center justify-content-center"
         controlId="Name"
       >
-        <Form.Label>Name</Form.Label>
+        <Form.Label className={styles.font}>Name</Form.Label>
         <Form.Control
           type="text"
           defaultValue={name}
@@ -59,7 +60,7 @@ function ContactForm() {
         className="mb-3 align-items-center justify-content-center"
         controlId="Email"
       >
-        <Form.Label>Email address</Form.Label>
+        <Form.Label className={styles.font}>Email address</Form.Label>
         <Form.Control
           type="email"
           defaultValue={email}
@@ -71,7 +72,7 @@ function ContactForm() {
         className="mb-3 align-items-center justify-content-center"
         controlId="Message"
       >
-        <Form.Label>Message</Form.Label>
+        <Form.Label className={styles.font}>Message</Form.Label>
         <Form.Control
           as="textarea"
           defaultValue={message}
@@ -84,7 +85,7 @@ function ContactForm() {
       </Button>
       {errorMessage && (
         <div>
-          <p>{errorMessage}</p>
+          <p className={styles.font}>{errorMessage}</p>
         </div>
       )}
     </Form>

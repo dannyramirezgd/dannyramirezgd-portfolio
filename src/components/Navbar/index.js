@@ -18,6 +18,7 @@ const Navigation = ({setLink}) => {
               className="d-inline-block align-text-top"
             />
           </Navbar.Brand>
+          <Navbar.Brand>Danny Ramirez</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
