@@ -10,10 +10,8 @@ A website detailing information about myself, my recent completed projects, my r
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Built With](#built-with)
-  - [Usage](#usage)
-  - [Tests](#tests)
   - [Website](#website)
-  - [Contributing](#contributing)
+  - [Screenshots](#screenshots)
   - [Questions](#questions)
   - [License](#license)
 ## Installation
@@ -31,6 +29,13 @@ npm i
 
 ## Website
 https://dannyramirezgd.github.io/dannyramirezgd-portfolio/
+
+## Screenshots
+![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot1.png)
+![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot2.png)
+![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot3.png)
+![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot4.png)
+
 
 ## Questions
 If you have any questions or comments you can reach out to me directly at: danny.ramirezgd@gmail.com or [dannyramirezgd](https://github.com/dannyramirezgd)
