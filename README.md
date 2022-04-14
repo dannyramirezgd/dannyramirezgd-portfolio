@@ -31,10 +31,10 @@ npm i
 https://dannyramirezgd.github.io/dannyramirezgd-portfolio/
 
 ## Screenshots
-![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot1.png)
-![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot2.png)
-![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot3.png)
-![screenshot](../dannyramirezgd-portfolio/src/assets/images/screenshot4.png)
+![screenshot](../src/assets/images/screenshot1.png)
+![screenshot](../src/assets/images/screenshot2.png)
+![screenshot](../src/assets/images/screenshot3.png)
+![screenshot](../src/assets/images/screenshot4.png)
 
 
 ## Questions
