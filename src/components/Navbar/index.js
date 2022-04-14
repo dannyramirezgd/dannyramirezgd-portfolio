@@ -9,7 +9,7 @@ const Navigation = ({setLink}) => {
     <header id="navbar" className="fs-5">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="#about-me">
             <img
               src={logo}
               alt="personal logo"
