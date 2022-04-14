@@ -2,7 +2,7 @@
 # React Portfolio
 
 ## Description
-A bit about me, my recent projects, and my resume as well as my proficiencies all created using React
+A website detailing information about myself, my recent completed projects, my resume, my proficiences, and information for contacting me.
 
 ## Table of Contents
 - [React Portfolio](#react-portfolio)
@@ -27,27 +27,16 @@ npm i
 * CSS
 * Bootstrap
 * Node
+* React
 
-## Usage
-N/A
-
-## Tests
-If you are looking to test the program please enter this into command: 
-```
-
-```
 ## Website
 tbd
-
-## Contributing
-If you are looking to contribute you can for example: 
-
 
 ## Questions
 If you have any questions or comments you can reach out to me directly at: danny.ramirezgd@gmail.com or [dannyramirezgd](https://github.com/dannyramirezgd)
   
-  ## License
-  Copyright (c) dannyramirezgd
+## License
+Copyright (c) dannyramirezgd
 
-  This license made with MIT
+This license made with MIT
   
