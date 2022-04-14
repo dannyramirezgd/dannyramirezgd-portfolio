@@ -11,71 +11,63 @@ function Resume() {
           Download My Resume Here
         </a>
       </h1>
-      <h2>Proficiencies</h2>
-      <ListGroup horizontal>
-        <ListGroup.Item>
+      <h2 className='mx-4'>Proficiencies</h2>
+      <ListGroup className='d-flex flex-row flex-wrap justify-content-between align-items-center'>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require(`../../assets/images/jsIcon.png`)}
             alt="javascript icon"
           />
-          <p className="text-center">Javascript</p>
+          <p className="text-center col-12">Javascript</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/bootstrapIcon.png')}
             alt="bootstrap icon"
           />
-          <p className="text-center">Bootstrap</p>
+          <p className="text-center col-12">Bootstrap</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/cssIcon.png')}
             alt="css icon"
           />
-          <p className="text-center">CSS</p>
+          <p className="text-center col-12">CSS</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/mysqlIcon.png')}
             alt="MySQL icon"
           />
-          <p className="text-center">MySQL</p>
+          <p className="text-center col-12">MySQL</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/nosqlIcon.png')}
             alt="noSQL icon"
           />
-          <p className="text-center">noSQL</p>
+          <p className="text-center col-12">noSQL</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/nodejsIcon.png')}
             alt="Node.JS icon"
           />
-          <p className="text-center">Node.js</p>
+          <p className="text-center col-12">Node.js</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/mongodbIcon.png')}
             alt="mongodb icon"
           />
-          <p className="text-center">MongoDB</p>
+          <p className="text-center col-12">MongoDB</p>
         </ListGroup.Item>
-        <ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
           <img
-            class="imgs"
             src={require('../../assets/images/restapiIcon.png')}
             alt="RestAPIs icon"
           />
-          <p className="text-center">Rest APIs</p>
+          <p className="text-center col-12">Rest APIs</p>
         </ListGroup.Item>
       </ListGroup>
     </div>

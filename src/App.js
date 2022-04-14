@@ -27,7 +27,7 @@ function App() {
     <div>
       <Navigation setLink={setLink} />
       <main className='d-flex justify-content-center align-items-center mt-5'>
-        <section>{currentLink(link)}</section>
+        <section className='w-100 d-flex justify-content-center'>{currentLink(link)}</section>
       </main>
       <Footer />
     </div>

@@ -42,7 +42,7 @@ function ContactForm() {
     <Form
       id="contact-form"
       onSubmit={handleSubmit}
-      className="flex-column"
+      className="d-flex flex-column col-6"
     >
       <Form.Group
         className="mb-3 align-items-center justify-content-center"

@@ -1,7 +1,8 @@
 {
-  "homepage": "http://dannyramirezgd.github.io/portfolio",
+
   "name": "dannyramirezgd-portfolio",
-  "version": "0.1.0",
+  "version": "0.1.0",  
+  "homepage": "http://dannyramirezgd.github.io/dannyramirezgd-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

@@ -12,7 +12,7 @@ function Portfolio() {
     },
     {
       name: 'frontEnd',
-      description: 'A solely front end application called Karaoke Made Easy',
+      description: 'A complete front end app',
       title: 'Karaoke Made Easy',
       ghLink: 'https://github.com/dannyramirezgd/karaoke-web-app',
       deployedApp: 'https://dannyramirezgd.github.io/karaoke-web-app/',
@@ -26,21 +26,21 @@ function Portfolio() {
     },
     {
       name: 'weatherDashboardApp',
-      description: 'A weather application',
+      description: 'Weather forecast by City and State',
       title: 'Weather Dashboard App',
       ghLink: 'https://github.com/dannyramirezgd/weather-dashboard-app',
       deployedApp: 'https://dannyramirezgd.github.io/weather-dashboard-app/',
     },
     {
       name: 'pwaBudgetTracker',
-      description: 'A progessive web application that helps budget',
+      description: 'PWA implementation',
       title: 'PWA Budget Tracker',
       ghLink: 'https://github.com/dannyramirezgd/PWA-budget-tracker',
       deployedApp: 'https://nameless-depths-49959.herokuapp.com/',
     },
     {
       name: 'techBlog',
-      description: 'A sample tech blog',
+      description: 'A functional blog site',
       title: 'Sample Tech Blog',
       ghLink: 'https://github.com/dannyramirezgd/tech-blog',
       deployedApp: 'https://hidden-meadow-59387.herokuapp.com/',
@@ -50,7 +50,7 @@ function Portfolio() {
     <div className="d-flex justify-content-around flex-wrap">
       {projects.map((image) => (
         <div className={styles.card}>
-          <Card className="m-1" style={{ width: '18rem' }}>
+          <Card className="m-1 card-content" style={{ width: '18rem' }}>
             <Card.Img
               variant="top"
               src={require(`../../assets/images/${image.name}.png`)}
@@ -72,19 +72,5 @@ function Portfolio() {
   );
 }
 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-  </Card.Body>
-  <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
-  </Card.Body>
-</Card>;
 
 export default Portfolio;

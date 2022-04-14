@@ -37,3 +37,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+main {
+  padding-bottom: 50px;
+}
+
+.imgs {
+  max-width: 200px;
+  max-height: 200px;
+}
