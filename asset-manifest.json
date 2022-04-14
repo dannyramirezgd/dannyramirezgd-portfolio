@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dannyramirezgd-portfolio/static/css/main.f839a844.css",
-    "main.js": "/dannyramirezgd-portfolio/static/js/main.f5dc55ff.js",
+    "main.js": "/dannyramirezgd-portfolio/static/js/main.5f3bb90c.js",
     "static/js/787.d053ddb6.chunk.js": "/dannyramirezgd-portfolio/static/js/787.d053ddb6.chunk.js",
     "static/media/Resume.pdf": "/dannyramirezgd-portfolio/static/media/Resume.648c4c6cdb4678c6a32a.pdf",
     "static/media/fullStack.png": "/dannyramirezgd-portfolio/static/media/fullStack.bb3884f8e4eaf2006c8d.png",
@@ -18,11 +18,11 @@
     "static/media/cssIcon.png": "/dannyramirezgd-portfolio/static/media/cssIcon.1ce245b23ce60e27dfd1.png",
     "index.html": "/dannyramirezgd-portfolio/index.html",
     "main.f839a844.css.map": "/dannyramirezgd-portfolio/static/css/main.f839a844.css.map",
-    "main.f5dc55ff.js.map": "/dannyramirezgd-portfolio/static/js/main.f5dc55ff.js.map",
+    "main.5f3bb90c.js.map": "/dannyramirezgd-portfolio/static/js/main.5f3bb90c.js.map",
     "787.d053ddb6.chunk.js.map": "/dannyramirezgd-portfolio/static/js/787.d053ddb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f839a844.css",
-    "static/js/main.f5dc55ff.js"
+    "static/js/main.5f3bb90c.js"
   ]
 }
