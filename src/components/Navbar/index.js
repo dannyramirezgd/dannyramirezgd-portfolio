@@ -3,6 +3,7 @@ import logo from '../../assets/images/personalLogo.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom'
 
 const Navigation = ({setLink}) => {
   return (
@@ -22,9 +23,9 @@ const Navigation = ({setLink}) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/dannyramirezgd-portfolio" to='/dannyramirezgd-portfolio'>About Me</Nav.Link>
-              <Nav.Link href="/projects" to='/projects'>Portfolio</Nav.Link>
-              <Nav.Link href="/resume" to='/resume'>Resume</Nav.Link>
+              <Link to="/dannyramirezgd-portfolio" className='nav-link'>About Me</Link>
+              <Link to="/projects" className='nav-link'>Portfolio</Link>
+              <Link to="/resume" className='nav-link'>Resume</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
