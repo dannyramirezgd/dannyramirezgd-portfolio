@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route exact path='/dannyramirezgd-portfolio' element={<About/>}/>
           <Route exact path='/resume' element={<Resume />}/>
-          <Route exact path='/portfolio' element={<Portfolio/>} />
+          <Route exact path='/projects' element={<Portfolio/>} />
 
           <Route path ='*' element={<Navigate to='/dannyramirezgd-portfolio' replace />} />
         </Routes>

@@ -22,8 +22,8 @@ const Navigation = ({setLink}) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/" to='/'>About Me</Nav.Link>
-              <Nav.Link href="/portfolio" to='/portfolio'>Portfolio</Nav.Link>
+              <Nav.Link href="/dannyramirezgd-portfolio" to='/dannyramirezgd-portfolio'>About Me</Nav.Link>
+              <Nav.Link href="/projects" to='/projects'>Portfolio</Nav.Link>
               <Nav.Link href="/resume" to='/resume'>Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
