@@ -1,34 +1,28 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './components/About';
 import Navigation from './components/Navbar';
-import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NoMatch from './pages/NoMatch';
 
+//HAVE TO TURN MY COMPONENTS INTO PAGES? 
 function App() {
-  const [link, setLink] = useState('');
-
-  const currentLink = () => {
-    switch (link) {
-      case 'Portfolio':
-        return <Portfolio />;
-      case 'Contact':
-        return <ContactForm />;
-      case 'Resume':
-        return <Resume />;
-      default:
-        return <About />;
-    }
-  };
 
   return (
     <div>
-      <Navigation setLink={setLink} />
-      <main className='d-flex justify-content-center align-items-center mt-5'>
-        <section className='w-100 d-flex justify-content-center'>{currentLink(link)}</section>
-      </main>
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route exact path='/' element={<About/>}/>
+          <Route exact path='/resume' element={<Resume />}/>
+          <Route exact path='/portfolio' element={<Portfolio/>} />
+
+          <Route component={NoMatch}/>
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );

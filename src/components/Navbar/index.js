@@ -9,7 +9,7 @@ const Navigation = ({setLink}) => {
     <header id="navbar" className="fs-5">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#about-me">
+          <Navbar.Brand href='/'>
             <img
               src={logo}
               alt="personal logo"
@@ -22,10 +22,9 @@ const Navigation = ({setLink}) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#about-me" onClick={() => {setLink('About Me')}}>About Me</Nav.Link>
-              <Nav.Link href="#portfolio" onClick={() => {setLink('Portfolio')}}>Portfolio</Nav.Link>
-              <Nav.Link href="#contact" onClick={() => {setLink('Contact')}}>Contact Me</Nav.Link>
-              <Nav.Link href="#Resume" onClick={() => {setLink('Resume')}}>Resume</Nav.Link>
+              <Nav.Link href="/" to='/'>About Me</Nav.Link>
+              <Nav.Link href="/portfolio" to='/portfolio'>Portfolio</Nav.Link>
+              <Nav.Link href="/resume" to='/resume'>Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

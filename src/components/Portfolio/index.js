@@ -5,7 +5,7 @@ import styles from './Portfolio.module.css';
 function Portfolio() {
   const [projects] = useState([
     {
-      name: 'employeeTrackerCapture',
+      name: 'employeeTracker',
       description: 'An employee database tracker',
       title: 'Employee Database Tracker',
       ghLink: 'https://github.com/dannyramirezgd/cms-employee-tracker',

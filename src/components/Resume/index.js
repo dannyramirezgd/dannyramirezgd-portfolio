@@ -69,6 +69,20 @@ function Resume() {
           />
           <p className="text-center col-12">Rest APIs</p>
         </ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
+          <img
+            src={require('../../assets/images/reactLogo.png')}
+            alt="RestAPIs icon"
+          />
+          <p className="text-center col-12">React</p>
+        </ListGroup.Item>
+        <ListGroup.Item className='imgs m-auto d-flex align-items-center justify-content-around flex-wrap'>
+          <img
+            src={require('../../assets/images/graphqlIcon.png')}
+            alt="RestAPIs icon"
+          />
+          <p className="text-center col-12">GraphQL</p>
+        </ListGroup.Item>
       </ListGroup>
     </div>
   );
