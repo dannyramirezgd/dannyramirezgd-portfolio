@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/dannyramirezgd-portfolio/static/css/main.f839a844.css",
-    "main.js": "/dannyramirezgd-portfolio/static/js/main.5f3bb90c.js",
+    "main.css": "/dannyramirezgd-portfolio/static/css/main.f127476e.css",
+    "main.js": "/dannyramirezgd-portfolio/static/js/main.8a077f7a.js",
     "static/js/787.d053ddb6.chunk.js": "/dannyramirezgd-portfolio/static/js/787.d053ddb6.chunk.js",
+    "static/media/screenshot1.png": "/dannyramirezgd-portfolio/static/media/screenshot1.0575869f0a929ace7ca6.png",
+    "static/media/screenshot2.png": "/dannyramirezgd-portfolio/static/media/screenshot2.aa668bd7f51079b8b888.png",
+    "static/media/screenshot4.png": "/dannyramirezgd-portfolio/static/media/screenshot4.411886d749c30783d9f0.png",
+    "static/media/screenshot3.png": "/dannyramirezgd-portfolio/static/media/screenshot3.eef51b655e290720c7e5.png",
     "static/media/Resume.pdf": "/dannyramirezgd-portfolio/static/media/Resume.648c4c6cdb4678c6a32a.pdf",
     "static/media/fullStack.png": "/dannyramirezgd-portfolio/static/media/fullStack.bb3884f8e4eaf2006c8d.png",
     "static/media/resizedProfilePic.jpg": "/dannyramirezgd-portfolio/static/media/resizedProfilePic.d5b334ae9b3e8d90561a.jpg",
     "static/media/heroImg.jpg": "/dannyramirezgd-portfolio/static/media/heroImg.05251f6c8c5d9bd33d4f.jpg",
-    "static/media/employeeTrackerCapture.png": "/dannyramirezgd-portfolio/static/media/employeeTrackerCapture.f76a3ca4772f9b9892f3.png",
+    "static/media/employeeTracker.png": "/dannyramirezgd-portfolio/static/media/employeeTracker.f76a3ca4772f9b9892f3.png",
     "static/media/weatherDashboardApp.png": "/dannyramirezgd-portfolio/static/media/weatherDashboardApp.04472854abd1a776590d.png",
     "static/media/frontEnd.png": "/dannyramirezgd-portfolio/static/media/frontEnd.442fb09d7570df38428c.png",
     "static/media/bootstrapIcon.png": "/dannyramirezgd-portfolio/static/media/bootstrapIcon.11bac7d55297b1066d89.png",
@@ -15,14 +19,15 @@
     "static/media/mysqlIcon.png": "/dannyramirezgd-portfolio/static/media/mysqlIcon.e59831cb763a89d839aa.png",
     "static/media/pwaBudgetTracker.png": "/dannyramirezgd-portfolio/static/media/pwaBudgetTracker.664dc67cbbce727ca4e9.png",
     "static/media/nosqlIcon.png": "/dannyramirezgd-portfolio/static/media/nosqlIcon.49b88db2f1f4a31bf2ac.png",
+    "static/media/reactLogo.png": "/dannyramirezgd-portfolio/static/media/reactLogo.4e39864e97d90aff3925.png",
     "static/media/cssIcon.png": "/dannyramirezgd-portfolio/static/media/cssIcon.1ce245b23ce60e27dfd1.png",
     "index.html": "/dannyramirezgd-portfolio/index.html",
-    "main.f839a844.css.map": "/dannyramirezgd-portfolio/static/css/main.f839a844.css.map",
-    "main.5f3bb90c.js.map": "/dannyramirezgd-portfolio/static/js/main.5f3bb90c.js.map",
+    "main.f127476e.css.map": "/dannyramirezgd-portfolio/static/css/main.f127476e.css.map",
+    "main.8a077f7a.js.map": "/dannyramirezgd-portfolio/static/js/main.8a077f7a.js.map",
     "787.d053ddb6.chunk.js.map": "/dannyramirezgd-portfolio/static/js/787.d053ddb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f839a844.css",
-    "static/js/main.5f3bb90c.js"
+    "static/css/main.f127476e.css",
+    "static/js/main.8a077f7a.js"
   ]
 }
