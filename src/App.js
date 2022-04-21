@@ -15,11 +15,11 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route exact path='/dannyramirezgd-portfolio' element={<About/>}/>
+          <Route exact path='/' element={<About/>}/>
           <Route exact path='/resume' element={<Resume />}/>
           <Route exact path='/projects' element={<Portfolio/>} />
 
-          <Route path ='*' element={<Navigate to='/dannyramirezgd-portfolio' replace />} />
+          <Route path ='*' element={<Navigate to='/' replace />} />
         </Routes>
       </BrowserRouter>
       <Footer />
