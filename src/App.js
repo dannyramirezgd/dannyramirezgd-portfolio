@@ -12,7 +12,7 @@ import NoMatch from './pages/NoMatch';
 function App() {
 
   return (
-    <div>
+    <main>
       <BrowserRouter>
         <Navigation />
         <Routes>
@@ -24,7 +24,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </div>
+    </main>
   );
 }
 
