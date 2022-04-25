@@ -5,8 +5,7 @@ import Navigation from './components/Navbar';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import NoMatch from './pages/NoMatch';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 //HAVE TO TURN MY COMPONENTS INTO PAGES? 
 function App() {
@@ -18,9 +17,9 @@ function App() {
         <Routes>
           <Route exact path='/' element={<About/>}/>
           <Route exact path='/resume' element={<Resume />}/>
-          <Route exact path='/portfolio' element={<Portfolio/>} />
+          <Route exact path='/projects' element={<Portfolio/>} />
 
-          <Route component={NoMatch}/>
+          <Route path ='*' element={<Navigate to='/' replace />} />
         </Routes>
       </BrowserRouter>
       <Footer />
